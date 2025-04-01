@@ -1,4 +1,5 @@
 PS5 UMTX2 Jailbreak Raspberry PI Offline Host Server
+----------------------------------------------------
 
 OS is Raspian Lite x64 and the UMTX2 Jailbreak from idlesauce.
 
@@ -12,8 +13,8 @@ Details:
 - Hostname: umtx2.local
 - Keyboard Layout: de
 
-Credentials 
------------
+Credentials:
+------------
 Login: umtx2 
 Password: umtx2 (user & root)
 
