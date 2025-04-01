@@ -1,20 +1,37 @@
-# PS5 UMTX Jailbreak
+PS5 UMTX2 Jailbreak Raspberry PI Offline Host Server
 
-The exploit code is largely based on the lua implementation by @shahrilnet and @n0llptr: https://github.com/shahrilnet/remote_lua_loader/blob/main/payloads/umtx.lua
+OS is Raspian Lite x64 and the UMTX2 Jailbreak from idlesauce.
 
-The rest of the setup is based on the previous works by @SpecterDev and @ChendoChap: https://github.com/PS5Dev/PS5-UMTX-Jailbreak/
+Source: https://github.com/idlesauce/umtx2 
 
-Thank you to them and everyone else who worked on the umtx and psfree exploit!
+Crontabs are set up for automated start the host and fakedns, ip address of the raspberry is set to dhcp.
 
-- Supports PS5 firmware 1.00-5.50
-- Includes payload menu
-- Uses PSFree 150b by abc
-- Auto-loads @john-tornblom's ELF loader
-- Includes the 9020 elf loader for compatibility with older payloads (not available in webkit-only mode)
-- Webkit-only mode for sending payloads and clearing appcache
+Details:
+--------
+- OS: Raspian Lite with SSH
+- Hostname: umtx2.local
+- Keyboard Layout: de
 
-### Site hosted on CloudFlare Pages: [https://umtx2.pages.dev/](https://umtx2.pages.dev/)
-   - Media pkg to open a browser directly at this link: [https://umtx2.ps5browser.pages.dev/umtx2.pages.dev.pkg](https://umtx2.ps5browser.pages.dev/umtx2.pages.dev.pkg)
+Credentials 
+-----------
+Login: umtx2 
+Password: umtx2 (user & root)
 
-### Site hosted on GitHub Pages: [https://idlesauce.github.io/umtx2/](https://idlesauce.github.io/umtx2/)
-   - Media pkg to open a browser directly at this link: [https://umtx2.ps5browser.pages.dev/umtx2.github.pkg](https://umtx2.ps5browser.pages.dev/umtx2.github.pkg)
+HowTo:
+------
+1. Download & Extract the umtx2rpi Image from .zip File
+2. Download & Run Win32DiskImager and restore the Image to your microSD Card (Minimun Card Size 4GB)
+3. Connect your Raspberry Pi via LAN to your Network with the inserted microSD Card an let it boot
+4. Lookup on your Network which IP your Raspberry Pi recieved from your DHCP
+5. Point DNS Server on your PS5 to the Raspberry Pi IP
+6. Run the Jailbreak over the Userguide or via IP Adress on the Browser from the PS5
+
+
+Advantages:
+-----------
+- Offline Jailbreak directly via LAN 
+- Access to directories (payloads) via SSH / SFTP
+
+Image Download Link:
+--------------------
+https://www.mediafire.com/file/8okrj5olvgsq9l4/umtx2rpi.zip/file
