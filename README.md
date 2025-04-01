@@ -32,6 +32,10 @@ Advantages:
 - Offline Jailbreak directly via LAN 
 - Access to directories (payloads) via SSH / SFTP
 
+Set Static IP Adresse:
+----------------------
+- Set Static IP Adress via nmtui in Terminal when connected via SSH to Raspberry Pi
+
 Win32 DiskImager Download Link:
 -------------------------------
 https://win32diskimager.b-cdn.net/win32diskimager-1.0.0-install.exe
