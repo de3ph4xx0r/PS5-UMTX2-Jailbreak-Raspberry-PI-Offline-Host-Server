@@ -32,7 +32,7 @@ Advantages:
 - Offline Jailbreak directly via LAN 
 - Access to directories (payloads) via SSH / SFTP
 
-Set Static IP Adresse:
+Set Static IP Adress:
 ----------------------
 - Set Static IP Adress via nmtui in Terminal when connected via SSH to Raspberry Pi
 - Execute: "sudo systemctl restart NetworkManager" after set IP Adress
