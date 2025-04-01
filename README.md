@@ -4,7 +4,7 @@ OS is Raspian Lite x64 and the UMTX2 Jailbreak from idlesauce.
 
 Source: https://github.com/idlesauce/umtx2 
 
-Crontabs are set up for automated start the host and fakedns, ip address of the raspberry is set to dhcp.
+Crontabs are set up for automated start of the host and fakedns, ip address of the Raspberry Pi is set to DHCP.
 
 Details:
 --------
@@ -26,11 +26,14 @@ HowTo:
 5. Point DNS Server on your PS5 to the Raspberry Pi IP
 6. Run the Jailbreak over the Userguide or via IP Adress on the Browser from the PS5
 
-
 Advantages:
 -----------
 - Offline Jailbreak directly via LAN 
 - Access to directories (payloads) via SSH / SFTP
+
+Win32 DiskImager Download Link:
+-------------------------------
+https://win32diskimager.b-cdn.net/win32diskimager-1.0.0-install.exe
 
 Image Download Link:
 --------------------
