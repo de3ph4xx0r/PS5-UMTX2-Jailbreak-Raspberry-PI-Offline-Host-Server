@@ -35,6 +35,7 @@ Advantages:
 Set Static IP Adresse:
 ----------------------
 - Set Static IP Adress via nmtui in Terminal when connected via SSH to Raspberry Pi
+- Execute: "sudo systemctl restart NetworkManager" after set IP Adress
 
 Win32 DiskImager Download Link:
 -------------------------------
