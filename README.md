@@ -9,8 +9,8 @@ Crontabs are set up for automated start of the host and fakedns, ip address of t
 
 Requirements:
 -------------
-Raspberry Pi (3B+/4/5)
-microSD (4GB Minimum)
+- Raspberry Pi (3B+/4/5)
+- microSD (4GB Minimum)
 
 Details:
 --------
