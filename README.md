@@ -27,7 +27,7 @@ HowTo:
 ------
 1. Download & Extract the umtx2rpi Image from .zip File
 2. Download & Run Win32DiskImager and restore the Image to your microSD Card (Minimum Card Size 4GB)
-3. Connect your Raspberry Pi via LAN to your Network with the inserted microSD Card an let it boot
+3. Connect your Raspberry Pi via LAN to your Network with the inserted microSD Card and let it boot
 4. Lookup on your Network which IP your Raspberry Pi recieved from your DHCP
 5. Point DNS Server on your PS5 to the Raspberry Pi IP
 6. Run the Jailbreak over the Userguide or via IP Adress on the Browser from the PS5
